@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Righteous&family=Roboto&family=Sarala:wght@400;700&family=Shizuru&display=swap');
+
+body{
+    background: #f5f7fa;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    padding: 10px 0;
+    height:44px;
+}
+
+.navbar i{
+    font-size: 1.5rem;
+    color:#dadfe6;
+}
+.navbar i:nth-child(1){
+    color:#fe466d;
+}
+
+.navbar i:nth-child(2):hover{
+color:#2db1ff ;
+}
+
+.navbar i:nth-child(3):hover{
+    color:#1be4a1;
+    }
+    
+
+.photo-and-actions{
+    height: calc(100vh - 44px);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+ 
+}
+
+.photo{
+    background: url('boy.jpg') center center/cover;
+    background-color: red;
+    width: 98vw;
+    height: 85vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    color:#eee;
+    box-shadow: 0 2px 10px 0 rgba(136,136,136,0.77);
+}
+
+.texto-da-foto{
+    padding: 15px;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(35,34,65,0) 0%, rgba(0,0,0,0.7) 52%);
+    border-radius: 10px;
+}
+
+.photo-name-e-idade{
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    font-size: 1.4rem;
+}
+.photo-name-e-idade h2:nth-child(2){
+    margin-left:10px;
+    font-weight:500;
+}
+.bio{
+    line-height:1.7;
+    font-size:1.1rem;
+    font-weight: 500;
+}
+
+.botoes{
+   
+    display: flex;
+    flex:auto;
+    align-items: center;
+    margin:1rem 0;
+}
+
+.botao{
+    border-radius: 50%;
+    background:#fff;
+    box-shadow: 0 2px 6px 0 rgba(112,125,134,0.14);
+    width:60px;
+    height:60px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;   
+    font-size:2rem;
+    
+}
+
+.botao:hover{
+    background-color:#dadfe6;
+    transform: scale(1.2);
+}
+.botoes .botao:nth-child(1){
+        color:#fd5068;
+     }
+.botoes .botao:nth-child(2){
+    font-size: 1.5rem;
+    color:#2db1ff;
+    width: 48px;
+    height: 48px;
+    margin:0 1rem;
+
+
+}
+
+.botoes .botao:nth-child(3){
+    color:#1be4a1;
+}
+
+@media(min-width:1025px){
+    .photo{
+        width:367px;
+        height:684px;
+    }
+
+    .navbar{
+        width:400px;
+        margin:auto;
+    }
+}
