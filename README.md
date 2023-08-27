@@ -2,13 +2,13 @@
 ## Fiz a criação baseada na aula do Felipe Rocha no canal dicasparadevs.
 O link da aula é esse aqui:  https://www.youtube.com/watch?v=bLNar9fmtqk&t=543s&ab_channel=FelipeRocha%E2%80%A2dicasparadevs
 
-### Objetivo:
-Este projeto é um clone do tinder.
-
-
 ### Tecnologias utilizadas:
 - HTML
 - CSS
+
+### Objetivo:
+Este projeto é um clone do tinder.
+
 
 ## Layout
 
